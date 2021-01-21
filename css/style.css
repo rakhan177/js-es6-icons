@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 3000px;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 30px;
+}
+
+.container > *{
+  padding: 30px;
+}
